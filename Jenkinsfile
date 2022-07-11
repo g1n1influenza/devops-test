@@ -1,4 +1,4 @@
-### Jenkinsfile new
+### Jenkinsfile JUnit and Jacoco
 pipeline {
   agent any
 
