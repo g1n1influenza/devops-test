@@ -1,4 +1,4 @@
-### Jenkinsfile JUnit and Jacoco
+### Jenkinsfile
 pipeline {
   agent any
 
