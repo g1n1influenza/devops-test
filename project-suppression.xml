@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+   <suppress>
+      <notes><![CDATA[
+      file name: log4j-api-2.13.3.jar
+      ]]></notes>
+      <sha1>ec1508160b93d274b1add34419b897bae84c6ca9</sha1>
+   </suppress>
+</suppressions>
