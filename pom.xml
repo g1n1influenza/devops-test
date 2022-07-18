@@ -94,8 +94,9 @@
       <format>ALL</format>
       <failBuildOnCVSS>10.1</failBuildOnCVSS>
 			<suppressionFiles>
-			<suppressionFile>project-suppression.xml</suppressionFile>
-		</suppressionFiles>
+					<suppressionFile>https://raw.githubusercontent.com/g1n1influenza/devops-test/main/project-suppression.xml</suppressionFile>
+					<suppressionFile>project-suppression.xml</suppressionFile>
+			</suppressionFiles>
 
       <!-- fail the build for CVSS greater than or equal to 8 -->
       <!--
@@ -107,7 +108,7 @@
 			     <cveUrlModified>http://internal-mirror.mycorp.com/nvdcve-1.1-modified.json.gz</cveUrlModified>
 			                    <cveUrlBase>http://internal-mirror.mycorp.com/nvdcve-1.1-%d.json.gz</cveUrlBase>
 			     <suppressionFiles>
-			                        <suppressionFile>http://example.org/suppression.xml</suppressionFile>
+			                        <suppressionFile>https://raw.githubusercontent.com/g1n1influenza/devops-test/main/project-suppression.xml</suppressionFile>
 			                        <suppressionFile>project-suppression.xml</suppressionFile>
 			                    </suppressionFiles>
 			                 -->
