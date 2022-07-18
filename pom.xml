@@ -86,34 +86,6 @@
 	   </configuration>
 	</plugin>
 
-	<plugin>
-   <groupId>org.owasp</groupId>
-   <artifactId>dependency-check-maven</artifactId>
-   <version>6.1.6</version>
-   <configuration>
-      <format>ALL</format>
-      <failBuildOnCVSS>10.1</failBuildOnCVSS>
-			<suppressionFiles>
-					<suppressionFile>https://raw.githubusercontent.com/g1n1influenza/devops-test/main/project-suppression.xml</suppressionFile>
-					<suppressionFile>project-suppression.xml</suppressionFile>
-			</suppressionFiles>
-
-      <!-- fail the build for CVSS greater than or equal to 8 -->
-      <!--
-			      use internal mirroring of CVE contents
-			      Suppress files
-			      E.g. a company-wide suppression file and local project file
-			     -->
-      <!--
-			     <cveUrlModified>http://internal-mirror.mycorp.com/nvdcve-1.1-modified.json.gz</cveUrlModified>
-			                    <cveUrlBase>http://internal-mirror.mycorp.com/nvdcve-1.1-%d.json.gz</cveUrlBase>
-			     <suppressionFiles>
-			                        <suppressionFile>https://raw.githubusercontent.com/g1n1influenza/devops-test/main/project-suppression.xml</suppressionFile>
-			                        <suppressionFile>project-suppression.xml</suppressionFile>
-			                    </suppressionFiles>
-			                 -->
-   </configuration>
-</plugin>
 
 		</plugins>
 	</build>
